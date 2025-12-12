@@ -128,6 +128,11 @@
       "name": "bigquery",
       "source": "./plugins/bigquery",
       "description": "BigQuery analysis utilities"
+    },
+    {
+      "name": "slack",
+      "source": "./plugins/slack",
+      "description": "Slack integration for OpenShift workflows including customer support automation"
     }
   ]
 }

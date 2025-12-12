@@ -23,6 +23,7 @@ This document lists all available Claude Code plugins and their commands in the 
 - [Origin](#origin-plugin)
 - [Prow Job](#prow-job-plugin)
 - [Session](#session-plugin)
+- [Slack](#slack-plugin)
 - [Sosreport](#sosreport-plugin)
 - [Utils](#utils-plugin)
 - [Yaml](#yaml-plugin)
@@ -271,6 +272,15 @@ A plugin to save and resume conversation sessions across long time intervals
 - **`/session:save-session` `[optional-description]`** - Save current conversation session to markdown file for future continuation
 
 See [plugins/session/README.md](plugins/session/README.md) for detailed documentation.
+
+### Slack Plugin
+
+Slack integration for OpenShift workflows including customer support automation
+
+**Commands:**
+- **`/slack:answer-question` `<question> [component] [--slack-url URL]`** - Answer customer questions from Slack support channels using OpenShift code and documentation
+
+See [plugins/slack/README.md](plugins/slack/README.md) for detailed documentation.
 
 ### Sosreport Plugin
 

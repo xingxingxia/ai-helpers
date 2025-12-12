@@ -987,6 +987,22 @@
         }
       ],
       "version": "0.0.1"
+    },
+    {
+      "commands": [
+        {
+          "argument_hint": "<question> [component] [--slack-url URL]",
+          "description": "Answer customer questions from Slack support channels using OpenShift code and documentation",
+          "name": "answer-question",
+          "synopsis": "/slack:answer-question <question> [component] [--slack-url URL]"
+        }
+      ],
+      "description": "Slack integration for OpenShift workflows including customer support automation",
+      "has_readme": true,
+      "hooks": [],
+      "name": "slack",
+      "skills": [],
+      "version": "0.0.1"
     }
   ]
 }
