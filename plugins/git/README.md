@@ -28,6 +28,10 @@ Scan the codebase for technical debt markers and generate a report.
 
 Generate a summary of git repository changes and activity.
 
+### `/git:resolve-conflicts`
+
+AI-powered merge conflict resolver with semantic analysis. Intelligently analyzes conflicting changes from both branches, understands intent from git history, and suggests resolution strategies with detailed reasoning.
+
 See the [commands/](commands/) directory for full documentation of each command.
 
 ## Installation

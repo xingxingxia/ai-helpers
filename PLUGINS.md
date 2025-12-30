@@ -128,6 +128,7 @@ Git workflow automation and utilities
 - **`/git:commit-suggest` `[N]`** - Generate Conventional Commits style commit messages or summarize existing commits
 - **`/git:debt-scan`** - Analyze technical debt indicators in the repository
 - **`/git:fix-cherrypick-robot-pr` `<pr-url> [error-messages]`** - Fix a cherrypick-robot PR that needs manual intervention
+- **`/git:resolve-conflicts` `[--auto] [file-pattern]`** - AI-powered merge conflict resolver with semantic analysis
 - **`/git:suggest-reviewers` `[base-branch]`** - Suggest appropriate reviewers for a PR based on git blame and OWNERS files
 - **`/git:summary`** - Show current branch, git status, and recent commits for quick context
 
